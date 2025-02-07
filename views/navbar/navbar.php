@@ -14,7 +14,7 @@
     <!-- Sidebar header -->
     <header class="sidebar-header">
       <a href="#" class="header-logo">
-        <img src="icon/LouGehIconCropped.png" alt="CodingNepal">
+        <img src="icon/LouGehIconCropped.png" alt="LouGeh">
       </a>
       <button class="toggler sidebar-toggler">
         <span class="material-symbols-rounded">chevron_left</span>
@@ -35,46 +35,32 @@
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">calendar_today</span>
-            <span class="nav-label">Calendar</span>
+          <img class="nav-icon" src="icon/car.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
+          <span class="nav-label">Cars</span>
           </a>
-          <span class="nav-tooltip">Calendar</span>
+          <span class="nav-tooltip">Cars</span>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">          
+          <img class="nav-icon" src="icon/services.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
+          <span class="nav-label">Services</span>
+          </a>
+          <span class="nav-tooltip">Services</span>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">notifications</span>
-            <span class="nav-label">Notifications</span>
+          <img class="nav-icon" src="icon/inventory.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
+            <span class="nav-label">Parts</span>
           </a>
-          <span class="nav-tooltip">Notifications</span>
+          <span class="nav-tooltip">Parts</span>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">group</span>
-            <span class="nav-label">Team</span>
+          <img class="nav-icon" src="icon/invoice.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
+            <span class="nav-label">Invoice</span>
           </a>
-          <span class="nav-tooltip">Team</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">insert_chart</span>
-            <span class="nav-label">Analytics</span>
-          </a>
-          <span class="nav-tooltip">Analytics</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">star</span>
-            <span class="nav-label">Bookmarks</span>
-          </a>
-          <span class="nav-tooltip">Bookmarks</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">settings</span>
-            <span class="nav-label">Settings</span>
-          </a>
-          <span class="nav-tooltip">Settings</span>
-        </li>
+          <span class="nav-tooltip">Invoice</span>
+        
       </ul>
       <!-- Secondary bottom nav -->
       <ul class="nav-list secondary-nav">
