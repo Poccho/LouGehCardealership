@@ -1,21 +1,19 @@
 /* Colors */
 :root {
-    --greenSeaweed: rgba(2, 128, 144, 1);
-    --blueQueen: rgba(69, 105, 144, 1);
-    --redFire: rgb(48, 65, 65);
+    --bgColor: rgb(48, 65, 65);
     --fontAsap: 'Asap', sans-serif;
 }
 
 /* Global Styles */
 body {
-    background-color: var(--redFire);
+    background-color: var(--bgColor);
     font-family: var(--fontAsap);
 }
 
 /* Login Form */
 .login {
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(199, 199, 199);
     padding: 40px 30px 30px 30px;
     border-radius: 10px;
     position: absolute;
@@ -58,7 +56,7 @@ body {
     display: block;
     border-radius: 5px;
     font-size: 16px;
-    background: white;
+    background:  rgb(221, 221, 221);
     width: 100%;
     border: 2px solid black;
     padding: 10px 10px;
@@ -94,7 +92,7 @@ body {
     margin-top: 10px;
     margin-left: -5px;
     border-radius: 5px;
-    background-color: var(--redFire);
+    background-color: var(--bgColor);
     transition: background-color 300ms;
 }
 
