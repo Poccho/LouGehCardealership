@@ -1,2 +1,4 @@
-<?php require("navbar/navbar.php");?>
-dashboard
+<?php 
+require("navbar/navbar.php");
+require("../configs/session.php");
+?>dashboard

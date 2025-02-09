@@ -1,2 +1,4 @@
-<?php require("navbar/navbar.php");?>
-parts
+<?php 
+require("navbar/navbar.php");
+require("../configs/session.php");
+?>parts
