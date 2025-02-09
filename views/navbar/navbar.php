@@ -1,87 +1,32 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/@codingnepal -->
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sidebar Menu | CodingNepal</title>
-  <link rel="stylesheet" href="navbar.css">
-  <!-- Linking Google fonts for icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+  <link rel="stylesheet" href="navbar/navbar.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-  <aside class="sidebar">
-    <!-- Sidebar header -->
-    <header class="sidebar-header">
-      <a href="#" class="header-logo">
-        <img src="icon/LouGehIconCropped.png" alt="LouGeh">
-      </a>
-      <button class="toggler sidebar-toggler">
-        <span class="material-symbols-rounded">chevron_left</span>
-      </button>
-      <button class="toggler menu-toggler">
-        <span class="material-symbols-rounded">menu</span>
-      </button>
-    </header>
-    <nav class="sidebar-nav">
-      <!-- Primary top nav -->
-      <ul class="nav-list primary-nav">
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">dashboard</span>
-            <span class="nav-label">Dashboard</span>
-          </a>
-          <span class="nav-tooltip">Dashboard</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-          <img class="nav-icon" src="icon/car.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
-          <span class="nav-label">Cars</span>
-          </a>
-          <span class="nav-tooltip">Cars</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">          
-          <img class="nav-icon" src="icon/services.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
-          <span class="nav-label">Services</span>
-          </a>
-          <span class="nav-tooltip">Services</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-          <img class="nav-icon" src="icon/inventory.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
-            <span class="nav-label">Parts</span>
-          </a>
-          <span class="nav-tooltip">Parts</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-          <img class="nav-icon" src="icon/invoice.png" alt="LouGeh" style="width: 25px; height: 25px; object-fit: cover;">
-            <span class="nav-label">Invoice</span>
-          </a>
-          <span class="nav-tooltip">Invoice</span>
-        
-      </ul>
-      <!-- Secondary bottom nav -->
-      <ul class="nav-list secondary-nav">
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">account_circle</span>
-            <span class="nav-label">Profile</span>
-          </a>
-          <span class="nav-tooltip">Profile</span>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="nav-icon material-symbols-rounded">logout</span>
-            <span class="nav-label">Logout</span>
-          </a>
-          <span class="nav-tooltip">Logout</span>
-        </li>
-      </ul>
-    </nav>
-  </aside>
-  <!-- Script -->
-  <script src="navbar.js"></script>
+  <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo">CodingNepal</label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="dashboard.php">Home</a></li>
+      <li><a href="cars.php">Cars</a></li>
+      <li><a href="services.php">Services</a></li>
+      <li><a href="parts.php">Parts</a></li>
+      <li><a href="invoice.php">Invoice</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
